@@ -5,7 +5,7 @@ import {
   Features,
   Possibility,
   Footer,
-} from "./comtainers";
+} from "./containers";
 
 import { CTA, Brand, NavBar } from "./components";
 
@@ -14,7 +14,7 @@ function App() {
     <>
       <div className="App">
         <div className="gradient__bg">
-
+          <NavBar />
         </div>
       </div>
     </>
