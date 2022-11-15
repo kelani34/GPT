@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <div></div>
+      <h1>GPT-3</h1>
     </>
   );
 }
