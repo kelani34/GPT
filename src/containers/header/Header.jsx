@@ -9,6 +9,9 @@ function Header() {
           <h1 className="gradient__text">
             Let's build something amazing with GPT-3 OpenAI
           </h1>
+          <div className="gpt3__header-content-input">
+            <input type="email" placeholder="Your Email Address" />
+          </div>
         </div>
       </div>
     </>
