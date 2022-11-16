@@ -24,6 +24,7 @@ function NavBar() {
       </p>
     </>
   );
+
   return (
     <>
       <div className="gpt3__navbar">
@@ -56,7 +57,7 @@ function NavBar() {
             <div className="gpt3__navbar-menu_container scale-up-center">
               <div className="gpt3__navbar-menu_container-links">
                 <Menu />
-                <div className="gpt3__navbar-sign">
+                <div className="gpt3__navbar-menu_container-links-sign">
                   <p>log in</p>
                   <button type="button">Sign up</button>
                 </div>
