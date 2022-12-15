@@ -3,17 +3,23 @@
   flex-direction: row;
   gap: 19px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .gpt3__possibility-image {
   flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .gpt3__possibility img {
-  max-width: 546px;
+  width: 100%;
+  height: 100%;
 }
 
 .gpt3__possibility-content {
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
@@ -22,19 +28,30 @@
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
+  margin-bottom: 31px;
 }
 .gpt3__possibility-content p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+  margin-bottom: 31px;
   color: var(--color-text);
 }
-.gpt3__possibility-content h4 {
+.gpt3__possibility-content h4:nth-child(1) {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 10px;
+
+  color: #71e5ff;
+}
+.gpt3__possibility-content h4:nth-child(n-1) {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
 
-  color: #71e5ff;
+  color: #ff8a71;
 }
