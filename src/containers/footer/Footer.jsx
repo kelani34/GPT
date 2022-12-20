@@ -17,7 +17,7 @@ function Footer() {
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links-logo">
           <img src={gpt3Logo} alt="logo" />
-          <p>Lagos Nigeria K19 K12, All Rights Reserved</p>
+          <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
@@ -32,10 +32,16 @@ function Footer() {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
-          <p>Lagos Nigeria K19 K12</p>
+          <p>Crechterwoord K12 182 DK Alknjkcb</p>
           <p>(+234)085-132567</p>
           <p>info@payme.net</p>
         </div>
+      </div>
+      <div className="gpt3_footer-copyright">
+        <p>
+          © 2021 GPT-3. All rights reserved. Built by{" "}
+          <a href="https://github.com/kelani34">Kehlani</a>
+        </p>
       </div>
     </div>
   );
