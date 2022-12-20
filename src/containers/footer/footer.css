@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
 
   background: var(--color-footer);
 }
@@ -46,4 +47,17 @@
   flex-direction: row;
   width: 100%;
   text-align: left;
+}
+
+.gpt3__footer-links_div {
+  width: 250px;
+  margin: 1rem;
+}
+
+.gpt3__footer-links_logo {
+  flex-direction: column;
+}
+.gpt3__footer-links_logo img {
+  width: 118px;
+  height: 30px;
 }
