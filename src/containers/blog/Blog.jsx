@@ -13,13 +13,33 @@ function Blog() {
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-contaiber_groupA">
-          <Article imgSRC={blog01}/>
+          <Article
+            imgSRC={blog01}
+            date="Oct 26, 2022"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
         </div>
         <div className="gpt3__blog-contaiber_groupB">
-          <Article imgSRC={blog01}/>
-          <Article imgSRC={blog01}/>
-          <Article imgSRC={blog01}/>
-          <Article imgSRC={blog01}/>
+          <Article
+            imgSRC={blog02}
+            date="Oct 26, 2022"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+          <Article
+            imgSRC={blog03}
+            date="Oct 26, 2022"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+          <Article
+            imgSRC={blog04}
+            date="Oct 26, 2022"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
+          <Article
+            imgSRC={blog05}
+            date="Oct 26, 2022"
+            title="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          />
         </div>
       </div>
     </div>
