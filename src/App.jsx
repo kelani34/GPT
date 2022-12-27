@@ -8,11 +8,13 @@ import {
 } from "./containers";
 
 import { CTA, Brand, NavBar } from "./components";
-import './App.css'
+import "./App.css";
+import Test from "./containers/Test";
 function App() {
   return (
     <>
       <div className="App">
+        {/* <Test /> */}
         <div className="gradient__bg">
           <NavBar />
           <Header />
